@@ -1,0 +1,22 @@
+{
+    "name": "goatform/api-tracker-bundle",
+    "autoload": {
+        "psr-4": {
+            "Goatform\\ApiTrackerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Goatform"
+        }
+    ],
+    "keywords": [
+        "api-status",
+        "monitoring",
+        "health-check",
+        "status-check",
+        "symfony-bundle",
+        "symfony-plugin"
+    ],
+    "require": {}
+}
