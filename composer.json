@@ -1,15 +1,12 @@
 {
     "name": "goatform/api-tracker-bundle",
-    "autoload": {
-        "psr-4": {
-            "Goatform\\ApiTrackerBundle\\": "src/"
-        }
-    },
+    "description": "",
     "authors": [
         {
             "name": "Goatform"
         }
     ],
+    "license": "BSD-3-Clause",
     "keywords": [
         "api-status",
         "monitoring",
@@ -18,5 +15,14 @@
         "symfony-bundle",
         "symfony-plugin"
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Goatform\\ApiTrackerBundle\\": "src/"
+        }
+    }
 }
