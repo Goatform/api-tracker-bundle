@@ -1,6 +1,8 @@
 {
     "name": "goatform/api-tracker-bundle",
     "description": "",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/Goatform/api-tracker-bundle",
     "authors": [
         {
             "name": "Goatform"
@@ -18,11 +20,11 @@
     "require": {
         "php": ">=8.0"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Goatform\\ApiTrackerBundle\\": "src/"
+            "Goatform\\ApiTracker\\Bundle\\": "src/"
         }
     }
 }
